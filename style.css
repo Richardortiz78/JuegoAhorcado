@@ -1,0 +1,23 @@
+#canvas{
+padding-left: 0;
+ padding-right: 0;
+ margin-left: auto;
+ margin-right: auto;
+display: block;
+background-color: rgb(60, 141, 60);
+width: 1200px;
+height: 800px;
+
+}
+
+.titulo{
+
+    text-align: center;
+
+}
+
+#iniciar{
+background-color: rgb(75, 75, 129);
+margin-left: auto;
+margin-right: auto;
+}
