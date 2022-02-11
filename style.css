@@ -4,7 +4,7 @@ padding-left: 0;
  margin-left: auto;
  margin-right: auto;
 display: block;
-background-color: rgb(60, 141, 60);
+background-color: rgb(114, 161, 70);
 width: 1200px;
 height: 800px;
 
@@ -13,6 +13,9 @@ height: 800px;
 .titulo{
 
     text-align: center;
+    font-size: 48pt;
+    font-family: fantasy;
+    color: cornflowerblue;
 
 }
 
@@ -20,4 +23,7 @@ height: 800px;
 background-color: rgb(75, 75, 129);
 margin-left: auto;
 margin-right: auto;
+width:max-content;
+height:max-content;
+
 }
