@@ -1,3 +1,17 @@
+  var iniciarJuego =document.querySelector("#iniciar");
+  iniciarJuego.addEventListener("click", function(){
+    event.preventDefault();
+    cadalso();
+    palabraSecreta();
+    dibujarGuiones();
+    start();
+
+  });
+  
+ 
+
+
+
 var canvas = document.getElementById("canvas");
 var pincel =canvas.getContext("2d");
 
@@ -16,23 +30,26 @@ function cadalso() {
 	  pincel.lineTo(248,55);
 	  pincel.fill();
   }
-  cadalso();
+  
 
-  function ahorcado(){
-    //cabeza
+function cabeza(){
+   
     pincel.lineWidth=4;
     pincel.fillStyle="white";
     pincel.beginPath();
     pincel.arc(155,60,10,0,Math.PI*2, true);
     pincel.stroke();
-    
-    //torso
+  }
+
+function torso(){
+
     pincel.beginPath();
     pincel.moveTo(155,71);
     pincel.lineTo(155,91);
     pincel.stroke();
-
-    //manos
+  }
+  
+function manos(){
     pincel.beginPath();
     pincel.moveTo(155,71);
     pincel.lineTo(190,91);
@@ -40,8 +57,10 @@ function cadalso() {
     pincel.moveTo(155,71);
     pincel.lineTo(126,91);
     pincel.stroke();
+  }
+    
+function piernas(){
 
-    //piernas
     pincel.beginPath();
     pincel.moveTo(155,91);
     pincel.lineTo(190,111);
@@ -52,4 +71,7 @@ function cadalso() {
 
     }
 
-    ahorcado()
+
+
+  
+
