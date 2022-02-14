@@ -4,26 +4,153 @@ padding-left: 0;
  margin-left: auto;
  margin-right: auto;
 display: block;
-background-color: rgb(114, 161, 70);
-width: 1200px;
-height: 800px;
+background-color: rgb(162, 224, 103);
+width: 900px;
+height: 600px;
+position: relative;
+
 
 }
 
 .titulo{
 
     text-align: center;
-    font-size: 48pt;
+    font-size: 32pt;
     font-family: fantasy;
     color: cornflowerblue;
 
 }
 
+#botones{
+
+    position: relative;
+}
+
 #iniciar{
-background-color: rgb(75, 75, 129);
+background-color: rgb(78, 78, 235);
+font-size:large;
+font-family: fantasy;
 margin-left: auto;
 margin-right: auto;
-width:max-content;
-height:max-content;
+align-items: center;
+display: flex;
+justify-content: center;
+width:160px;
+height:60px;
+
+
+}
+
+#reiniciar{
+    background-color: rgb(78, 78, 235);
+    font-size:large;
+    font-family: fantasy;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:160px;
+    height:60px;
+
+}
+
+#ingresar{
+
+    background-color: rgb(78, 78, 235);
+    font-size:large;
+    font-family: fantasy;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:160px;
+    height:60px;
+
+}
+
+#nuevaPalabra{
+    
+    width:260px;
+    height:60px;
+
+
+
+}
+#mensaje {
+  
+    position: relative;
+        
+        
+}
+#intentos{
+    position: absolute;
+    top: 30%;
+    left:12%;
+    font-size: 25px;
+    color:  #6d2a2a;
+
+}
+
+#letrasError {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 15px;
+    color:  #f12308;
+
+
+
+
+}
+#resultadoPerdedor{
+  position: absolute;
+  top : 10%;
+  left: 10%;
+  font-size: 40px;
+  color: rgb(189, 36, 31);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+
+
+}
+
+#resultadoGanador{
+    font-size: 80px;
+    font-family: fantasy;
+    text-align: center;
+    color:greenyellow;
+    position: absolute;
+    top:40%;
+    left:11%;    
+  
+  
+  }
+
+#palabraSecreta {
+    font: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    letter-spacing: 4px;
+    padding: 15px;
+    text-align: center;
+    word-spacing: 2px;
+    color: #fffbff;
+    position:absolute;
+    left: 25%;
+    top:72%;
+    
+}
+
+#titulo2{
+
+    font: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    color: #923792;
 
 }

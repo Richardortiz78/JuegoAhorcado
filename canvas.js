@@ -1,17 +1,4 @@
-  var iniciarJuego =document.querySelector("#iniciar");
-  iniciarJuego.addEventListener("click", function(){
-    event.preventDefault();
-    cadalso();
-    palabraSecreta();
-    dibujarGuiones();
-    start();
-
-  });
   
- 
-
-
-
 var canvas = document.getElementById("canvas");
 var pincel =canvas.getContext("2d");
 
@@ -49,7 +36,7 @@ function torso(){
     pincel.stroke();
   }
   
-function manos(){
+function brazos(){
     pincel.beginPath();
     pincel.moveTo(155,71);
     pincel.lineTo(190,91);
@@ -71,6 +58,11 @@ function piernas(){
 
     }
 
+    function dibujarPalabra(){
+      pincel.fillStyle="white";
+      pincel.font="bold italic 24px arial"
+      pincel.fillText(palabraConGuiones,21,120);
+    }
 
 
   

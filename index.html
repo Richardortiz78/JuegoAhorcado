@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset=""UTF-8/>
+    <title> Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class=""contenedor">
+        <section class="pizarra">
+            <h1 class="titulo">El Juego del Ahorcado</h1>
+           
+            <div class ="mensaje" >
+            <canvas id="canvas"></canvas>
+            
+            
+               
+                <div id= "palabraSecreta"></div>
+                <h2 id="titulo2">Letras usadas</h2>
+                <div id= "letrasError"></div>
+                <div id="intentos"></div>
+                <div id= "resultadoGanador"></div>
+                <div id= "resultadoPerdedor"></div>
+          
+           
+          </div>
+          
+          <div>
+            <button id="iniciar">Jugar</button>
+            <button id="reiniciar">Volver a empezar</button>
+            <button id="ingresar">Ingresar Palabra</button>  
+            <input id="nuevaPalabra" placeholder="Ingresa una nueva palabra">
+           
+
+
+
+          </div>
+            
+            
+
+
+           
+
+
+
+        </section>
+        
+    
+
+
+
+
+
+        
+    
+    </main>
+
+    <footer style="width:100%; margin-left: 0px;">
+
+
+        <div class="copyright" style="background-color: #0d47a1;">
+            <div class="container-fluid" style="background-color: #0d47a1; color: #bbdefb;">
+                ©  Copyright 2022 | Richard Ortiz -Chile
+        
+            </div>
+        </div>
+      
+      </footer>
+
+      <script type="text/javascript" src="canvas.js"></script>
+      <script type="text/javascript" src="funciones.js"></script>
+      <script type="text/javascript" src="ingresarPalabra.js"></script>
+     
+
+    </body>
+</html>
